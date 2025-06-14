@@ -42,7 +42,7 @@ export default function TodoList() {
       
       <div className="mt-8 space-y-2">
         {todos.length === 0 ? (
-          <p className="text-center text-gray-500">No todos yet. Add one above!</p>
+          <p className="text-center text-gray-400">No todos yet. Add one above!</p>
         ) : (
           todos.map(todo => (
             <TodoItem
